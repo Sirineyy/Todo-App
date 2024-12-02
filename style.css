@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input,
+button,
+select {
+  display: block;
+  margin: 30px;
+}
+h1 {
+  text-align: center;
+  text-decoration-line: underline;
+  font-weight: 150;
+  color: blue;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#list1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 30px;
+  min-height: 300px;
+  min-width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(164, 182, 243, 0.5);
+}
+img,
+h1 {
+  padding: 10px;
+}
+select {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+select:hover {
+  background-color: rgb(76, 76, 224);
+  border: none;
+  min-width: 100px;
+  min-height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+#button1 {
+  padding: 10px;
+  min-width: 40px;
+  min-height: 30px;
+  background-color: rgb(58, 80, 249);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+#button1:hover {
+  background-color: rgb(76, 76, 224);
+}
+input {
+  background-color: rgb(243, 248, 251);
+  padding-left: 1em;
+  min-width: 40%;
+  min-height: 20px;
+  border: none;
+  box-shadow: 10px 10px 20px rgba(186, 199, 241, 0.5);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input:hover {
+  border: none;
+  box-shadow: 10px 10px 20px rgba(186, 199, 241, 0.5);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.list {
+  background-color: #fbfafc;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23819cfa' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  min-width: 50px;
+  margin: 200px;
+  margin-top: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.newtask :hover {
+  cursor: pointer;
+}
